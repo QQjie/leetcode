@@ -15,6 +15,7 @@ public class InOrder {
 
     }
 
+    //中序遍历
     public static void inOrder(TreeNode root, List<Integer> list) {
         if (root == null) {
             return;
